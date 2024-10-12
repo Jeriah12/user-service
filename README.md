@@ -1,6 +1,6 @@
-# User Service
+# user-service
 
-The **User Service** is a microservice responsible for managing user-related operations such as registration, authentication, and profile management in the e-commerce platform.
+The **user-service** is a microservice responsible for managing user-related operations such as registration, authentication, and profile management in the e-commerce platform.
 
 ## Table of Contents
 
