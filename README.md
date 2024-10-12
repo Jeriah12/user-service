@@ -94,55 +94,39 @@ Follow these steps to set up the User Service on your local machine:
    }
    ```
 
-   User login
-   
-   Endpoint: POST /api/v1/auth/login
-   
-   Description: Authenticates a user and returns a JWT token.
-   
-   Request Body:
-   
-   json
-   Copy code
+   * User login
+   * Endpoint: POST /api/v1/auth/login
+   * Description: Authenticates a user and returns a JWT token.
+   * Request Body:
+     
+   ```json
    {
      "email": "johndoe@example.com",
      "password": "your_password"
    }
-   User Profile
-   Get user profile
-   
-   Endpoint: GET /api/v1/users/profile
-   
-   Description: Retrieves the authenticated user's profile.
-   
-   Headers:
-   
-   makefile
-   Copy code
+   ```
+
+   * User Profile
+   * Get user profile
+   * Endpoint: GET /api/v1/users/profile
+   * Description: Retrieves the authenticated user's profile.
+   * Headers:
+   * 
+   ```makefile
    Authorization: Bearer <JWT_TOKEN>
-   Update user profile
-   
-   Endpoint: PUT /api/v1/users/profile
-   
-   Description: Updates the authenticated user's profile information.
-   
-   Headers:
-   
-   makefile
-   Copy code
+   ```
+
+   * Update user profile
+   * Endpoint: PUT /api/v1/users/profile
+   * Description: Updates the authenticated user's profile information.
+   * Headers:
+   ```makefile
    Authorization: Bearer <JWT_TOKEN>
-   Request Body (example):
-   
-   json
-   Copy code
+   ```
+   * Request Body (example):
+   ```json
    {
      "username": "john_doe_updated",
      "email": "newemail@example.com"
    }
-   
-     
-   
-       
-   
-     
-   
+   ```   
