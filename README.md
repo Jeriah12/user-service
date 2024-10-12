@@ -62,6 +62,7 @@ Follow these steps to set up the User Service on your local machine:
    PORT=3000
    MONGO_URI=mongodb://localhost:27017/userdb
    JWT_SECRET=your_jwt_secret_key
+   ```
 
    * PORT: The port number on which the service will run (default is 3000).
    * MONGO_URI: MongoDB connection string (update with your MongoDB credentials if necessary).
@@ -72,10 +73,12 @@ Follow these steps to set up the User Service on your local machine:
     Build the docker image
     ```bash
     docker build -t user-service:latest .
+    ```
 
     Run the Docker container
     ```bash
     docker run -p 3000:3000 --env-file .env user-service:latest
+    ```
 
     The service should now be accessible at http://localhost:3000
 
