@@ -111,7 +111,7 @@ Follow these steps to set up the User Service on your local machine:
    * Endpoint: GET /api/v1/users/profile
    * Description: Retrieves the authenticated user's profile.
    * Headers:
-   * 
+     
    ```makefile
    Authorization: Bearer <JWT_TOKEN>
    ```
