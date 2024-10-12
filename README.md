@@ -79,7 +79,7 @@ Follow these steps to set up the User Service on your local machine:
 
     The service should now be accessible at http://localhost:3000
 
-    ## API Endpoints
+## API Endpoints
 
    ### Register a new user
    * Endpoint: POST /api/v1/auth/register   
