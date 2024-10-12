@@ -131,6 +131,8 @@ Follow these steps to set up the User Service on your local machine:
    }
    ```
 ## Testing
+Run unit tests using:
 ```bash
 npm test
 ```
+This command will execute all tests located in the tests directory.
