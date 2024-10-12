@@ -52,5 +52,14 @@ Follow these steps to set up the User Service on your local machine:
    
 2. **Install Dependencies:**
 
-   ```npm install
+   ```bash
+   npm install
+
+3. **Environment VariablesInstall Dependencies:**
+   Create a .env file in the root directory and add the following environment variables:
+   ```dotenv
+   PORT=3000
+   MONGO_URI=mongodb://localhost:27017/userdb
+   JWT_SECRET=your_jwt_secret_key
+
 
