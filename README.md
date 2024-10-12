@@ -129,4 +129,8 @@ Follow these steps to set up the User Service on your local machine:
      "username": "john_doe_updated",
      "email": "newemail@example.com"
    }
-   ```   
+   ```
+## Testing
+```bash
+npm test
+```
