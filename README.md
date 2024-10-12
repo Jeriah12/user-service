@@ -49,3 +49,8 @@ Follow these steps to set up the User Service on your local machine:
    ```bash
    git clone https://github.com/your-username/user-service.git
    cd user-service
+   
+2. **Install Dependencies:**
+
+   ```npm install
+
