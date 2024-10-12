@@ -81,7 +81,7 @@ Follow these steps to set up the User Service on your local machine:
 
     ## API Endpoints
 
-   * Register a new user
+   ### Register a new user
    * Endpoint: POST /api/v1/auth/register   
    * Description: Creates a new user account.  
    * Request Body:
@@ -94,7 +94,7 @@ Follow these steps to set up the User Service on your local machine:
    }
    ```
 
-   * User login
+   ### User login
    * Endpoint: POST /api/v1/auth/login
    * Description: Authenticates a user and returns a JWT token.
    * Request Body:
@@ -106,7 +106,7 @@ Follow these steps to set up the User Service on your local machine:
    }
    ```
 
-   * User Profile
+   ### User Profile
    * Get user profile
    * Endpoint: GET /api/v1/users/profile
    * Description: Retrieves the authenticated user's profile.
@@ -116,7 +116,7 @@ Follow these steps to set up the User Service on your local machine:
    Authorization: Bearer <JWT_TOKEN>
    ```
 
-   * Update user profile
+   ### Update user profile
    * Endpoint: PUT /api/v1/users/profile
    * Description: Updates the authenticated user's profile information.
    * Headers:
