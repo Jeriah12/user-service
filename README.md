@@ -8,12 +8,9 @@ The **User Service** is a microservice responsible for managing user-related ope
 - [Technology Stack](#technology-stack)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running the Service](#running-the-service)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -82,9 +79,70 @@ Follow these steps to set up the User Service on your local machine:
 
     The service should now be accessible at http://localhost:3000
 
-  
+    ## API Endpoints
 
-    
+   * Register a new user
+   * Endpoint: POST /api/v1/auth/register   
+   * Description: Creates a new user account.  
+   * Request Body:
+   
+   ```json
+   {
+     "username": "johndoe",
+     "email": "johndoe@example.com",
+     "password": "your_password"
+   }
+   ```
 
-  
-
+   User login
+   
+   Endpoint: POST /api/v1/auth/login
+   
+   Description: Authenticates a user and returns a JWT token.
+   
+   Request Body:
+   
+   json
+   Copy code
+   {
+     "email": "johndoe@example.com",
+     "password": "your_password"
+   }
+   User Profile
+   Get user profile
+   
+   Endpoint: GET /api/v1/users/profile
+   
+   Description: Retrieves the authenticated user's profile.
+   
+   Headers:
+   
+   makefile
+   Copy code
+   Authorization: Bearer <JWT_TOKEN>
+   Update user profile
+   
+   Endpoint: PUT /api/v1/users/profile
+   
+   Description: Updates the authenticated user's profile information.
+   
+   Headers:
+   
+   makefile
+   Copy code
+   Authorization: Bearer <JWT_TOKEN>
+   Request Body (example):
+   
+   json
+   Copy code
+   {
+     "username": "john_doe_updated",
+     "email": "newemail@example.com"
+   }
+   
+     
+   
+       
+   
+     
+   
