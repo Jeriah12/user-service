@@ -25,7 +25,7 @@ The **User Service** is a microservice responsible for managing user-related ope
 - **Framework:** Express.js
 - **Database:** MongoDB
 - **Authentication:** JSON Web Tokens (JWT)
-- **Containerization:** Docker (optional)
+- **Containerization:** Docker
 
 ## Prerequisites
 
