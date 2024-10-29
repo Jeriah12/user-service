@@ -137,7 +137,7 @@ npm test
 ```
 This command will execute all tests located in the tests directory.
 
-For testing start up database by running command:
+For testing start up database by running command as administrator:
 
 ```bash
 net start MongoDB
