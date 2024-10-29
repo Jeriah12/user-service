@@ -136,3 +136,9 @@ Run unit tests using:
 npm test
 ```
 This command will execute all tests located in the tests directory.
+
+For testing start up database by running command:
+'''bash
+net start MongoDB
+'''
+
